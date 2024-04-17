@@ -61,7 +61,7 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 
-# Flask Backend
+# Backend (Flask)
 
 This project contains the Flask backend code for the Kuvera Bank Statement Matcher.
 
@@ -78,5 +78,30 @@ This project contains the Flask backend code for the Kuvera Bank Statement Match
 2. Install Flask and other dependencies using pip:
    ```bash
    pip install flask
+   ```
+# Run the Server
+
+To run the Flask backend for the Kuvera Bank Statement Matcher, follow these steps:
+
+1. **Navigate to the root directory of the project**.
+2. **Run the Flask server**:
+    ```bash
+    python actualbackend.py
+    ```
+   The backend server will start running on [http://localhost:5000](http://localhost:5000).
+
+## Usage
+
+Once both the frontend and backend servers are running, follow these steps to use the application:
+
+1. Access the application in your web browser.
+2. Upload your bank statement PDF and Kuvera investment statement CSV files.
+3. Review the matched transactions and any discrepancies identified.
+4. Download the report as a PDF if needed.
+
+## Contributing
+
+Contributions to this project are welcome. If you have any suggestions, feature requests, or bug reports, please open an issue or submit a pull request on GitHub.
+
 
 
