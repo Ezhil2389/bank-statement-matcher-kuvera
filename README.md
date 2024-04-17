@@ -1,3 +1,14 @@
+# Kuvera Bank Statement Matcher
+
+The Kuvera Bank Statement Matcher is an add-on feature designed to streamline the process of reconciling bank statements with investment transactions recorded on the Kuvera platform. This tool allows users to upload their bank statement in PDF format and their investment statement from Kuvera in CSV format. It then matches transactions between the two statements and identifies any discrepancies.
+
+## How it Works
+1. **Upload Files**: Users can upload their bank statement (currently only supports PDFs from ICICI Bank) and their investment statement from Kuvera as CSV files.
+2. **Transaction Matching**: The tool matches transactions between the bank statement and the Kuvera investment statement based on the transaction amounts.
+3. **Discrepancy Detection**: Any discrepancies between the two statements are identified and displayed in a table. Discrepancies are indicated with a red cross emoji.
+4. **Download Report**: Users have the option to download the table showing the matched transactions and discrepancies as a PDF file.
+
+
 # React Frontend
 
 This project contains the frontend code for the Kuvera Bank Statement Matcher.
