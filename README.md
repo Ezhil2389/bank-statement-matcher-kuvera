@@ -9,7 +9,7 @@ The Kuvera Bank Statement Matcher is an add-on feature designed to streamline th
 4. **Download Report**: Users have the option to download the table showing the matched transactions and discrepancies as a PDF file.
 
 
-# React Frontend
+# Frontend (React)
 
 This project contains the frontend code for the Kuvera Bank Statement Matcher.
 
