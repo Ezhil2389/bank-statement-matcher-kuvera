@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# React Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project contains the frontend code for the Kuvera Bank Statement Matcher.
+
+## Files
+- **App.css**: CSS file containing styling for the React components.
+- **App.js**: Main JavaScript file containing the React components and logic for handling file uploads and displaying the matched transactions table.
 
 ## Available Scripts
 
@@ -37,7 +41,7 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However, we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Learn More
 
@@ -45,26 +49,23 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Flask Backend
 
-### Analyzing the Bundle Size
+This project contains the Flask backend code for the Kuvera Bank Statement Matcher.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Files
+- **actualbackend.py**: Flask backend file containing the server-side logic for processing file uploads, matching transactions, and generating the PDF report.
 
-### Making a Progressive Web App
+## Installation and Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Prerequisites
+- Python and pip for running the Flask backend.
 
-### Advanced Configuration
+### Backend Installation
+1. Navigate to the root directory of the project.
+2. Install Flask and other dependencies using pip:
+   ```bash
+   pip install flask
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
